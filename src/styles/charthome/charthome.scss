@@ -1,0 +1,68 @@
+.Welcomebox {
+   text-align: center;
+   font-weight: bold;
+   font-size: 20px;
+   padding-right: 40px;
+}
+.centerchart {
+    border: 1px solid #4CAF50;
+    margin: auto;
+    border-top: none;
+    position: absolute;
+    width: 800px;
+    top: 31px;
+}
+.centerchart > div {
+    margin:auto;
+    width:400px;
+    padding: 30px;
+}
+
+.react-tabs__tab--selected {
+    margin-top: 0px;
+    background: #ffffff;
+    z-index: 9;
+    border-color: #4CAF50;
+    font-weight: bold;
+}
+.App-pages {
+    height: 460px;
+    width: 500px;
+    perspective: 960px;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    margin:auto;
+    margin-top:10px;
+    padding:10px;
+    border:1px solid #4CAF50;
+}
+.flipboardmenu {
+    width:500px;
+    min-height:30px;
+    height:auto;
+    margin:auto;
+    margin-top:20px;
+    padding:10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.flipboardtab {
+    width:140px;
+    height:40px;
+    display: inline-block;
+    text-align: center;
+    margin:10px;
+
+} 
+.chartname {
+    text-align: center;
+    padding:10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.selectedtab {
+    background-color: blue;
+}
