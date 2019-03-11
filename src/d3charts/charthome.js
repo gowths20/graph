@@ -4,7 +4,7 @@ import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import FlippingPages from 'flipping-pages'
 import 'flipping-pages/FlippingPages.css'
 
-import LineChartComponent from './lineChart';
+import LineChartComponent from './linechart';
 import ScatterChart from './scatterchart';
 import BarChartComponent from './barchart';
 
@@ -65,7 +65,7 @@ class ChartHome extends Component {
                         polyfill */
                         touch-action="none"
                     >
-                        <LineChartComponent />
+                        <LineChartComponent elementWidth={400} elementHeight={400} />
                         <ScatterChart />
                         <BarChartComponent />
                         

@@ -29,8 +29,4 @@ class BarChartComponent extends Component {
 }
 
 
-BarChartComponent.propTypes = {
-  data: PropTypes.array.isRequired
-};
-
 export default BarChartComponent;
